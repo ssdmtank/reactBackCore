@@ -1,2 +1,2 @@
 # reactBackCore
-react+redux+ts
+react+redux+ts+antd
