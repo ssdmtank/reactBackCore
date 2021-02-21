@@ -14,7 +14,7 @@ export default class State extends Component<any, IState>{
     }
 
     componentDidMount() {
-        // state 的更新是异步的
+        // state 的更新是异步的 不能直接调用this.state更新
         for (let i = 0; i < 100; i++) {
             this.setState((state, props) => ({
                 counter: state.counter + 1
